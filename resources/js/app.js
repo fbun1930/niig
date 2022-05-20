@@ -8,12 +8,12 @@ import Vuelidate from 'vuelidate'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCopy, faPencilAlt, faPlusSquare, faTrash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
+import store from './store/index'
 
 import Moment from 'vue-moment';
 
-// import "bootstrap/dist/css/bootstrap.min.css"
-// import "bootstrap-vue/dist/bootstrap-vue.css"
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 
 Vue.use(BootstrapVue);
@@ -25,4 +25,5 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 const app = new Vue({
     el:'#app',
     router,
+    store
 });
