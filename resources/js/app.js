@@ -8,7 +8,7 @@ import Vuelidate from 'vuelidate'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCopy, faPencilAlt, faPlusSquare, faTrash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
+import store from './store/index'
 
 import Moment from 'vue-moment';
 
@@ -25,4 +25,5 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 const app = new Vue({
     el:'#app',
     router,
+    store
 });
