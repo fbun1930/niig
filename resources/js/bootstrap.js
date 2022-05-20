@@ -13,6 +13,16 @@ try {
 window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+//Токен может высохнуть но по факту он есть и программа будет выдавать 2 типа этих ошибок, и чтобы их не было прописываем интерсептор и удаляем просроченный токен
+window.axios.interceptors.response.use({}, error => {
+    if(error.response.status === 401 || error.response.status === 419){
+        const token = localStorage.getItem('x_xsrf_token');
+        if(token){
+            localStorage.removeItem('x_xsrf_token');
+        }
+        this.$router.push({name:'login'});
+    }
+});
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

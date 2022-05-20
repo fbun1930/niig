@@ -12,8 +12,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import Moment from 'vue-moment';
 
-// import "bootstrap/dist/css/bootstrap.min.css"
-// import "bootstrap-vue/dist/bootstrap-vue.css"
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 
 Vue.use(BootstrapVue);
