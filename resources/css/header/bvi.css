@@ -1,0 +1,51 @@
+/*
+    Visually impaired button
+*/
+
+.visually-impaired {
+    font-size: 20px
+}
+
+.visually-impaired .header-top {
+    font-size: 18px;
+}
+
+.eye-link.button-red {
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #ff7700;
+}
+
+.visually-impaired .news-slider .right {
+    max-width: 500px;
+}
+
+.visually-impaired .item-desc, .visually-impaired .employees-list .item .item-desc {
+    font-size: 1em;
+    line-height: 1.875;
+}
+
+.visually-impaired .news-slider .slider-items {
+    background-color: #fff;
+}
+
+.visually-impaired .patient-info-item .h2 {
+    word-wrap: break-word;
+}
+
+.visually-impaired .about .top {
+    max-width: 910px;
+    background-color: #fff;
+}
+
+.visually-impaired .about .about-item {
+    background-color: #fff;
+}
+
+.visually-impaired .footer-contacts>div {
+    flex-basis: 320px;
+}
+
+.visually-impaired .footer-contacts .tel a:before {
+    margin-right: 15px;
+}

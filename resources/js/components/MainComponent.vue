@@ -7,6 +7,7 @@
 
                     <div class="card-body">
                         Контент главной страницы
+                        <New/>
                     </div>
                 </div>
             </div>
@@ -15,7 +16,9 @@
 </template>
 
 <script>
+    import New from "./New";
     export default {
+        components: {New},
         mounted() {
             console.log('Component mounted.')
         }
