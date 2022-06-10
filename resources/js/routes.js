@@ -7,10 +7,11 @@ import Register from "./components/auth/Register";
 import Cabinet from "./components/auth/Cabinet";
 import MainComponent from "./components/MainComponent";
 import New from "./components/New";
+import About from "./components/About";
+import Certificate from "./components/Certificate";
 
 
 const router = new VueRouter({
-
     mode:'history',
     routes:[
 
@@ -50,6 +51,22 @@ const router = new VueRouter({
             meta: {
                 layout: 'Default'
             }
+        },
+        {
+            path:"/about",
+            component: About,
+            name: 'about',
+            meta: {
+                layout: 'Default'
+            }
+        },
+        {
+            path:"/certificate",
+            component: Certificate,
+            name: 'certificate',
+            meta: {
+                layout: 'Default'
+            },
         },
 
     ]
