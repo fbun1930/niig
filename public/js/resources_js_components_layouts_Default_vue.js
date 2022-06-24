@@ -155,6 +155,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Default",
@@ -296,6 +302,39 @@ var render = function () {
               1
             ),
             _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/direction" } }, [
+                  _vm._v("Руководство"),
+                ]),
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/heads-of-departments" } }, [
+                  _vm._v("Руководители отделов"),
+                ]),
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/history" } }, [
+                  _vm._v("Историческая справка"),
+                ]),
+              ],
+              1
+            ),
+            _vm._v(" "),
             _vm._m(1),
             _vm._v(" "),
             _vm._m(2),
@@ -305,29 +344,21 @@ var render = function () {
             _vm._m(4),
             _vm._v(" "),
             _vm._m(5),
-            _vm._v(" "),
-            _vm._m(6),
-            _vm._v(" "),
-            _vm._m(7),
-            _vm._v(" "),
-            _vm._m(8),
-            _vm._v(" "),
-            _vm._m(9),
           ]),
         ]),
         _vm._v(" "),
+        _vm._m(6),
+        _vm._v(" "),
+        _vm._m(7),
+        _vm._v(" "),
+        _vm._m(8),
+        _vm._v(" "),
+        _vm._m(9),
+        _vm._v(" "),
         _vm._m(10),
-        _vm._v(" "),
-        _vm._m(11),
-        _vm._v(" "),
-        _vm._m(12),
-        _vm._v(" "),
-        _vm._m(13),
-        _vm._v(" "),
-        _vm._m(14),
       ]),
       _vm._v(" "),
-      _vm._m(15),
+      _vm._m(11),
       _vm._v(" "),
       _c(
         "a",
@@ -335,7 +366,7 @@ var render = function () {
           staticClass: "eye-link button button-yellow",
           attrs: { id: "eye-link" },
         },
-        [_vm._v("\n            Версия для слабовидящих\n        ")]
+        [_vm._v("\n                Версия для слабовидящих\n            ")]
       ),
     ]),
     _vm._v(" "),
@@ -343,17 +374,15 @@ var render = function () {
       _c("div", { staticClass: "logo" }, [
         _c("img", { attrs: { width: "138", height: "144", src: _vm.image } }),
         _vm._v(" "),
-        _vm._m(16),
+        _vm._m(12),
       ]),
       _vm._v(" "),
-      _vm._m(17),
+      _vm._m(13),
       _vm._v(" "),
-      _vm._m(18),
-      _vm._v(" "),
-      _vm._m(19),
+      _vm._m(14),
     ]),
     _vm._v(" "),
-    _vm._m(20),
+    _vm._m(15),
   ])
 }
 var staticRenderFns = [
@@ -365,38 +394,6 @@ var staticRenderFns = [
       _c("a", { attrs: { href: "#", "aria-current": "page" } }, [
         _vm._v("Главная"),
       ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", {}, [
-      _c("a", { attrs: { href: "#" } }, [_vm._v("Руководство")]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", {}, [
-      _c("a", { attrs: { href: "#" } }, [_vm._v("Дирекция")]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", {}, [
-      _c("a", { attrs: { href: "#" } }, [_vm._v("Руководители отделов")]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", {}, [
-      _c("a", { attrs: { href: "#" } }, [_vm._v("Историческая справка")]),
     ])
   },
   function () {
@@ -611,7 +608,7 @@ var staticRenderFns = [
         _c("br"),
         _vm._v("директора Института"),
         _c("br"),
-        _vm._v("\n                пн. - пт. 9:00 - 17:40;"),
+        _vm._v("\n                    пн. - пт. 9:00 - 17:40;"),
         _c("br"),
         _vm._v("сб., вс. выходной"),
       ]),
@@ -632,18 +629,10 @@ var staticRenderFns = [
         _c("br"),
         _vm._v("центра Профпатологии"),
         _c("br"),
-        _vm._v("\n                пн. - пт. 9:00 - 15:00; "),
+        _vm._v("\n                    пн. - пт. 9:00 - 15:00; "),
         _c("br"),
         _vm._v("сб., вс. выходной"),
       ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "contacts contacts-info" }, [
-      _c("div", { staticClass: "adress" }),
     ])
   },
   function () {

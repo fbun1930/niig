@@ -6,10 +6,9 @@
                     <ul class="sub-menu">
                         <li class=""><router-link to="/about">Об Институте</router-link></li>
                         <li class=""><router-link to="/certificate">Сертификаты, лицензия, аккредитация</router-link></li>
-                        <li class=""><a href="#">Руководство</a></li>
-                        <li class=""><a href="#">Дирекция</a></li>
-                        <li class=""><a href="#">Руководители отделов</a></li>
-                        <li class=""><a href="#">Историческая справка</a></li>
+                        <li class=""><router-link to="/direction">Руководство</router-link></li>
+                        <li class=""><router-link to="/heads-of-departments">Руководители отделов</router-link></li>
+                        <li class=""><router-link to="/history">Историческая справка</router-link></li>
                         <li class=""><a href="#">Новости</a></li>
                         <li class=""><a href="#">Документы</a></li>
                         <li class=""><a href="#">Противодействие коррупции</a></li>
@@ -45,6 +44,12 @@
                 </li>
                 <li class=""><a href="#">НП "Демография"</a></li>
                 <li class=""><a href="#">Центр профпатологии</a></li>
+                <!--<li class=""><a href="#">Админка</a>
+                    <ul class="sub-menu">
+                        <li class=""><router-link to="/addnews">Добавление новотей</router-link></li>
+                    </ul>
+                </li>-->
+
                 <!--<li id="menu-item-202" class="menu-item-202"><a href="#">Контакты</a></li>-->
             </ul>
             <div class="lang">
@@ -80,11 +85,12 @@
                     пн. - пт. 9:00 - 15:00; <br>сб., вс. выходной</small>
             </div>
 
-            <div class="contacts contacts-info">
-                <div class="adress"></div>
-                <!--<a href="obratnaya-svyaz/index.html" class="button button-big">Обратная связь</a>-->
+            <!--<div class="contacts contacts-info">
+                <div class="
+"></div>
+                <a href="obratnaya-svyaz/index.html" class="button">Обратная связь</a>
             </div>
-
+-->
         </div>
         <div class="container">
         <nav class="header-menu mobile-menu">

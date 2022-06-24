@@ -7,7 +7,7 @@
                 <font-awesome-icon :icon="['fa', 'file-pdf']" size="lg" :style="{ color: 'red' }"/>
                 <a href="resources/assets/Certificate/cert_mo.pdf" target="_blank">Лицензия на осуществление медицинской деятельности</a>
                 <br>
-                <font-awesome-icon :icon="['fa', 'location-dot']" size="lg" :style="{ color: 'red' }"/>
+                <font-awesome-icon :icon="['fa', 'file-pdf']" size="lg" :style="{ color: 'red' }"/>
                 <a> Лицензия на осуществление образовательной деятельности</a>
                 <br>
                 <font-awesome-icon :icon="['fa', 'file-pdf']" size="lg" :style="{ color: 'red' }"/>

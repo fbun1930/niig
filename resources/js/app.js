@@ -7,7 +7,7 @@ import BootstrapVue from 'bootstrap-vue'
 import Vuelidate from 'vuelidate'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCopy, faPencilAlt, faPlusSquare, faTrash, faFilePdf, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faCopy, faPencilAlt, faPlusSquare, faTrash, faFilePdf, faLocationDot, faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import store from './store/index'
 
