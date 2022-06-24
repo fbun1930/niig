@@ -363,14 +363,14 @@
     h1, h2, h3, h4, h4, h5, h6 {
         margin: 0;
         font-family: "Montserrat", sans-serif;
-        line-height: 1.4;
+        line-height: 1.9;
         color: #000;
     }
 
     .h1, .h2, .h3, .h4, .h4, .h5, .h6 {
         display: block;
         font-family: "Montserrat", sans-serif;
-        line-height: 1.4;
+        line-height: 1.9;
         color: #000;
         font-weight: 700;
     }
@@ -3032,7 +3032,7 @@
     }
 
     .widgettitle {
-        margin-bottom: 40px;
+        margin-bottom: 36px;
     }
 
     .widget.news-posts {
@@ -5563,11 +5563,11 @@
     /* ======= Оптимизация хэдера =========*/
     /*=====================================*/
     .header-center .logo h1, .header-center .logo > div {
-        font-size: calc(12px + 5 * (100vw / 1920));
+        font-size: calc(14px + 5 * (100vw / 1920));
     }
 
     .header-center .tel a {
-        font-size: calc(12px + 4 * (100vw / 1920));
+        font-size: calc(14px + 4 * (100vw / 1920));
     }
 
     .header-center .contacts-info .adress:before {
@@ -5579,7 +5579,7 @@
     }
 
     .header-center .tel small {
-        font-size: calc(10px + 4 * (100vw / 1920));
+        font-size: calc(11px + 4 * (100vw / 1920));
     }
 
     @media (max-width: 1240px) {
@@ -5594,7 +5594,7 @@
     /* ======================================= */
     @media (min-width: 1920px) {
         .header-center .tel a {
-            font-size: 25px;
+            font-size: calc(12px + 4 * (100vw / 1920));
         }
 
         .header-center .logo h1 small {
@@ -6624,4 +6624,10 @@
     }
 
     /* ============ Виджет конец ============ */
+
+    /* дополнительно */
+    .text-not-bold {
+        text-align: left;
+        font-weight: 300;
+    }
 </style>
