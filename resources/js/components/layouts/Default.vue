@@ -9,7 +9,7 @@
                         <li class=""><router-link to="/direction">Руководство</router-link></li>
                         <li class=""><router-link to="/heads-of-departments">Руководители отделов</router-link></li>
                         <li class=""><router-link to="/history">Историческая справка</router-link></li>
-                        <li class=""><a href="#">Новости</a></li>
+                        <li class=""><router-link to="/news">Новости</router-link></li>
                         <li class=""><a href="#">Документы</a></li>
                         <li class=""><a href="#">Противодействие коррупции</a></li>
                         <li class=""><a href="#">Контактная информация</a></li>
@@ -93,55 +93,55 @@
 -->
         </div>
         <div class="container">
-        <nav class="header-menu mobile-menu">
-            <input id="mobile-menu-toggle" type="checkbox">
-            <label class="mobile-menu-button" for="mobile-menu-toggle">
-                <span></span>
-            </label>
-            <div class="primary-menu">
-                <span class="cross"></span>
-                <ul class="menu"><li id="menu-item-2895" class="menu-item-has-children menu-item-2895"><a href="patsientam/konsultacii/index.html">Консультации</a>
-                    <!--<ul class="sub-menu">
-                        <li id="menu-item-11951" class="menu-item-11951"><a href="patsientam/konsultacii/index.html">Запись на консультацию</a></li>
-                        <li id="menu-item-2896" class="menu-item-2896"><a href="otdeleniya/konsultativno-diagnosticheskoe-otdelenie/index.html">Консультативно-диагностическое отделение в г. Пушкин</a></li>
-                        <li id="menu-item-2838" class="menu-item-2838"><a target="_blank" rel="noopener" href="http://kdcturner.ru/">Консультативно-диагностический Центр на Лахтинской ул. 12</a></li>
-                        <li id="menu-item-1910" class="menu-item-object-post menu-item-1910"><a href="patsientam/telemeditsina/index.html">Телемедицина</a></li>
-                        <li id="menu-item-8806" class="menu-item-8806"><a href="zaochnaya-konsultatsiya/index.html">Заочная консультация</a></li>
-                        <li id="menu-item-2525" class="menu-item-2525"><a href="patsientam/inostrannym-grazhdanam/index.html">Иностранным гражданам</a></li>
-                    </ul>-->
-                </li>
-                    <li id="menu-item-6186" class="menu-item-has-children menu-item-6186"><a href="diagnostika/index.html">Анализы</a>
+            <nav class="header-menu mobile-menu">
+                <input id="mobile-menu-toggle" type="checkbox">
+                <label class="mobile-menu-button" for="mobile-menu-toggle">
+                    <span></span>
+                </label>
+                <div class="primary-menu">
+                    <span class="cross"></span>
+                    <ul class="menu"><li id="menu-item-2895" class="menu-item-has-children menu-item-2895"><a href="patsientam/konsultacii/index.html">Консультации</a>
                         <!--<ul class="sub-menu">
-                            <li id="menu-item-6274" class="menu-item-6274"><a href="kliniko-diagnosticheskaya-laboratoriya/index.html">Клинико-диагностическая лаборатория</a></li>
-                            <li id="menu-item-4925" class="menu-item-4925"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/index.html">Лучевая диагностика</a></li>
-                            <li id="menu-item-6278" class="menu-item-6278"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/densitometriya/index.html">Денситометрия</a></li>
-                            <li id="menu-item-6280" class="menu-item-6280"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/kt-diagnostika/index.html">Компьютерная томография (КТ)</a></li>
-                            <li id="menu-item-6276" class="menu-item-6276"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/mrt-diagnostika/index.html">Магнитно-резонансная томография (МРТ)</a></li>
-                            <li id="menu-item-6275" class="menu-item-6275"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/rentgen-diagnostika/index.html">Рентген-диагностика</a></li>
-                            <li id="menu-item-6277" class="menu-item-6277"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/kabinet-ultrazvukovoy-diagnostiki/index.html">УЗИ</a></li>
-                            <li id="menu-item-6281" class="menu-item-6281"><a href="diagnostika/elektroneyromiografiya-enmg/index.html">Электронейромиография (ЭНМГ)</a></li>
-                            <li id="menu-item-7723" class="menu-item-7723"><a href="nauchno-laboratornyy-otdel/geneticheskaya-laboratoriya/index.html">Молекулярно-генетическая лаборатория</a></li>
-                            <li id="menu-item-7722" class="menu-item-7722"><a href="laboratoriya-fiziologicheskih-i-biomehanicheskih-issledovaniy/index.html">Лаборатория физиологических и биомеханических исследований</a></li>
+                            <li id="menu-item-11951" class="menu-item-11951"><a href="patsientam/konsultacii/index.html">Запись на консультацию</a></li>
+                            <li id="menu-item-2896" class="menu-item-2896"><a href="otdeleniya/konsultativno-diagnosticheskoe-otdelenie/index.html">Консультативно-диагностическое отделение в г. Пушкин</a></li>
+                            <li id="menu-item-2838" class="menu-item-2838"><a target="_blank" rel="noopener" href="http://kdcturner.ru/">Консультативно-диагностический Центр на Лахтинской ул. 12</a></li>
+                            <li id="menu-item-1910" class="menu-item-object-post menu-item-1910"><a href="patsientam/telemeditsina/index.html">Телемедицина</a></li>
+                            <li id="menu-item-8806" class="menu-item-8806"><a href="zaochnaya-konsultatsiya/index.html">Заочная консультация</a></li>
+                            <li id="menu-item-2525" class="menu-item-2525"><a href="patsientam/inostrannym-grazhdanam/index.html">Иностранным гражданам</a></li>
                         </ul>-->
                     </li>
-                    <li id="menu-item-7448" class="menu-item-7448"><a href="gospitalizacia-turnera/index.html">Акции</a></li>
-                    <li id="menu-item-2529" class="menu-item-object-post menu-item-2529"><a href="patsientam/vysokotehnologichnaya-meditsinskaya-pomosch-v-fgbu-nmits-detskoy-travmatologii-i-ortopedii-im-g-i-turnera/index.html">Госпитализация</a></li>
-                    <li id="menu-item-2562" class="menu-item-has-children menu-item-2562"><a href="reabilitatsiya/index.html">Периодические медицинские осмотры</a>
-                        <!--<ul class="sub-menu">
-                            <li id="menu-item-6865" class="menu-item-6865"><a href="otdeleniya/otdelenie-dvigatelnoy-reabilitatsii-lokomat-armeo/index.html">Отделение двигательной реабилитации</a></li>
-                            <li id="menu-item-6866" class="menu-item-6866"><a href="otdeleniya/ortopedo-travmatologicheskoe-reabilitatsionnoe-otdelenie-11-otdelenie/index.html">Травматолого-ортопедическое реабилитационное отделение</a></li>
-                            <li id="menu-item-6867" class="menu-item-6867"><a href="http://kdcturner.ru/vosstanovitelnoe-lechenie-i-reabilitatsiya/">Восстановительное лечение и реабилитация</a></li>
-                        </ul>-->
-                    </li>
-                </ul>            </div>
-            <div class="search">
-                <form method="get" class="search-form" action="#">
-                    <input type="search" placeholder="Поиск информации на сайте" name="s" value="">
-                    <button class="icon-search"></button>
-                </form>
-            </div>
+                        <li id="menu-item-6186" class="menu-item-has-children menu-item-6186"><a href="diagnostika/index.html">Анализы</a>
+                            <!--<ul class="sub-menu">
+                                <li id="menu-item-6274" class="menu-item-6274"><a href="kliniko-diagnosticheskaya-laboratoriya/index.html">Клинико-диагностическая лаборатория</a></li>
+                                <li id="menu-item-4925" class="menu-item-4925"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/index.html">Лучевая диагностика</a></li>
+                                <li id="menu-item-6278" class="menu-item-6278"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/densitometriya/index.html">Денситометрия</a></li>
+                                <li id="menu-item-6280" class="menu-item-6280"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/kt-diagnostika/index.html">Компьютерная томография (КТ)</a></li>
+                                <li id="menu-item-6276" class="menu-item-6276"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/mrt-diagnostika/index.html">Магнитно-резонансная томография (МРТ)</a></li>
+                                <li id="menu-item-6275" class="menu-item-6275"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/rentgen-diagnostika/index.html">Рентген-диагностика</a></li>
+                                <li id="menu-item-6277" class="menu-item-6277"><a href="otdeleniya/otdelenie-luchevoy-diagnostiki/kabinet-ultrazvukovoy-diagnostiki/index.html">УЗИ</a></li>
+                                <li id="menu-item-6281" class="menu-item-6281"><a href="diagnostika/elektroneyromiografiya-enmg/index.html">Электронейромиография (ЭНМГ)</a></li>
+                                <li id="menu-item-7723" class="menu-item-7723"><a href="nauchno-laboratornyy-otdel/geneticheskaya-laboratoriya/index.html">Молекулярно-генетическая лаборатория</a></li>
+                                <li id="menu-item-7722" class="menu-item-7722"><a href="laboratoriya-fiziologicheskih-i-biomehanicheskih-issledovaniy/index.html">Лаборатория физиологических и биомеханических исследований</a></li>
+                            </ul>-->
+                        </li>
+                        <li id="menu-item-7448" class="menu-item-7448"><a href="gospitalizacia-turnera/index.html">Акции</a></li>
+                        <li id="menu-item-2529" class="menu-item-object-post menu-item-2529"><a href="patsientam/vysokotehnologichnaya-meditsinskaya-pomosch-v-fgbu-nmits-detskoy-travmatologii-i-ortopedii-im-g-i-turnera/index.html">Госпитализация</a></li>
+                        <li id="menu-item-2562" class="menu-item-has-children menu-item-2562"><a href="reabilitatsiya/index.html">Периодические медицинские осмотры</a>
+                            <!--<ul class="sub-menu">
+                                <li id="menu-item-6865" class="menu-item-6865"><a href="otdeleniya/otdelenie-dvigatelnoy-reabilitatsii-lokomat-armeo/index.html">Отделение двигательной реабилитации</a></li>
+                                <li id="menu-item-6866" class="menu-item-6866"><a href="otdeleniya/ortopedo-travmatologicheskoe-reabilitatsionnoe-otdelenie-11-otdelenie/index.html">Травматолого-ортопедическое реабилитационное отделение</a></li>
+                                <li id="menu-item-6867" class="menu-item-6867"><a href="http://kdcturner.ru/vosstanovitelnoe-lechenie-i-reabilitatsiya/">Восстановительное лечение и реабилитация</a></li>
+                            </ul>-->
+                        </li>
+                    </ul>            </div>
+                <div class="search">
+                    <form method="get" class="search-form" action="#">
+                        <input type="search" placeholder="Поиск информации на сайте" name="s" value="">
+                        <button class="icon-search"></button>
+                    </form>
+                </div>
 
-        </nav>
+            </nav>
         </div>
     </header>
 

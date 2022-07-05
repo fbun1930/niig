@@ -22,4 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/news', [App\Http\Controllers\NewsController::class, 'index']);
 Route::prefix('/news')->group(function(){
     Route::get('/categories-news', [NewsController::class, 'CategoriesNews']);
+    Route::post('/store', [NewsController::class, 'store']);
+    Route::get('/index', [NewsController::class, 'index']);
+    Route::delete('/delete-new/{id}', [App\Http\Controllers\NewsController::class, 'destroy']);
 });
