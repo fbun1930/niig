@@ -7,10 +7,15 @@ import Register from "./components/auth/Register";
 import Cabinet from "./components/auth/Cabinet";
 import MainComponent from "./components/MainComponent";
 import New from "./components/New";
-
+import About from "./components/About";
+import Certificate from "./components/Certificate";
+import Addnews from "./components/Addnews";
+import Direction from "./components/Direction";
+import Headsofdepartments from "./components/Headsofdepartments";
+import History from "./components/History";
+import NewsIndex from "./components/news/Index"
 
 const router = new VueRouter({
-
     mode:'history',
     routes:[
 
@@ -50,6 +55,62 @@ const router = new VueRouter({
             meta: {
                 layout: 'Default'
             }
+        },
+        {
+            path:"/about",
+            component: About,
+            name: 'about',
+            meta: {
+                layout: 'Default'
+            }
+        },
+        {
+            path:"/certificate",
+            component: Certificate,
+            name: 'certificate',
+            meta: {
+                layout: 'Default'
+            },
+        },
+        {
+            path:"/direction",
+            component: Direction,
+            name: 'direction',
+            meta: {
+                layout: 'Default'
+            },
+        },
+        {
+            path:"/heads-of-departments",
+            component: Headsofdepartments,
+            name: 'headsofdepartments',
+            meta: {
+                layout: 'Default'
+            },
+        },
+        {
+            path:"/history",
+            component: History,
+            name: 'history',
+            meta: {
+                layout: 'Default'
+            },
+        },
+        {
+            path:"/addnews",
+            component: Addnews,
+            name: 'addnews',
+            meta: {
+                layout: 'Default'
+            },
+        },
+        {
+            path:"/news",
+            component: NewsIndex,
+            name: 'news_index',
+            meta: {
+                layout: 'Default'
+            },
         },
 
     ]
