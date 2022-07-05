@@ -48,7 +48,7 @@
                 <ul class="menu top-menu"><li id="menu-item-5135" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-5135"><a href="#" aria-current="page">Главная</a></li>
                     <li id="menu-item-2815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2815"><a href="#">Об Институте</a>
                         <ul class="sub-menu">
-                            <li id="menu-item-11746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11746"><a href="#">Об Институте</a></li>
+                            <li class="nav-item"><router-link class="nav-link" :to="{name: 'cabinet'}">Личный кабинет</router-link></li>
                             <li id="menu-item-10834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10834"><a href="#">Сертификаты, лицензия, аккредитация </a></li>
                             <li id="menu-item-3175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3175"><a href="#">Руководство</a></li>
                             <li id="menu-item-1930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1930"><a href="#">Дирекция</a></li>
