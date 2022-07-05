@@ -13,6 +13,9 @@ import Addnews from "./components/Addnews";
 import Direction from "./components/Direction";
 import Headsofdepartments from "./components/Headsofdepartments";
 import History from "./components/History";
+
+import Contacts from "./components/Contacts";
+
 import NewsIndex from "./components/news/Index"
 
 const router = new VueRouter({
@@ -100,6 +103,14 @@ const router = new VueRouter({
             path:"/addnews",
             component: Addnews,
             name: 'addnews',
+            meta: {
+                layout: 'Default'
+            },
+        },
+        {
+            path: "/contacts",
+            component: Contacts,
+            name: 'contacts',
             meta: {
                 layout: 'Default'
             },

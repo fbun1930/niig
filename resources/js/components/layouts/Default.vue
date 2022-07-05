@@ -12,7 +12,7 @@
                         <li class=""><router-link to="/news">Новости</router-link></li>
                         <li class=""><a href="#">Документы</a></li>
                         <li class=""><a href="#">Противодействие коррупции</a></li>
-                        <li class=""><a href="#">Контактная информация</a></li>
+                        <li class=""><router-link to="/contacts">Контактная информация</router-link></li>
                         <li class=""><a href="#">Международное сотрудничество</a></li>
                     </ul>
                 </li>
