@@ -2912,7 +2912,7 @@
     }
 
     table > tbody > tr:first-child > td:first-child, table > tbody > tr:first-child > th:first-child {
-        border-radius: 10px 0 0 0;
+        border-radius: 10px 10px 0 0;
     }
 
     table > tr:first-child > td:first-child, table > tr:first-child > th:first-child {
@@ -2920,7 +2920,7 @@
     }
 
     table > tbody > tr:first-child > td:last-child, table > tbody > tr:first-child > th:last-child {
-        border-radius: 0 10px 0 0;
+        border-radius: 10px 10px 0 0;
     }
 
     table > tr:first-child > td:last-child, table > tr:first-child > th:last-child {
