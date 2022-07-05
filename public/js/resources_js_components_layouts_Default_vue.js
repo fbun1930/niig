@@ -335,11 +335,20 @@ var render = function () {
               1
             ),
             _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/news" } }, [
+                  _vm._v("Новости"),
+                ]),
+              ],
+              1
+            ),
+            _vm._v(" "),
             _vm._m(1),
             _vm._v(" "),
             _vm._m(2),
-            _vm._v(" "),
-            _vm._m(3),
             _vm._v(" "),
             _c(
               "li",
@@ -352,9 +361,11 @@ var render = function () {
               1
             ),
             _vm._v(" "),
-            _vm._m(4),
+            _vm._m(3),
           ]),
         ]),
+        _vm._v(" "),
+        _vm._m(4),
         _vm._v(" "),
         _vm._m(5),
         _vm._v(" "),
@@ -363,11 +374,9 @@ var render = function () {
         _vm._m(7),
         _vm._v(" "),
         _vm._m(8),
-        _vm._v(" "),
-        _vm._m(9),
       ]),
       _vm._v(" "),
-      _vm._m(10),
+      _vm._m(9),
       _vm._v(" "),
       _c(
         "a",
@@ -383,15 +392,15 @@ var render = function () {
       _c("div", { staticClass: "logo" }, [
         _c("img", { attrs: { width: "138", height: "144", src: _vm.image } }),
         _vm._v(" "),
-        _vm._m(11),
+        _vm._m(10),
       ]),
       _vm._v(" "),
-      _vm._m(12),
+      _vm._m(11),
       _vm._v(" "),
-      _vm._m(13),
+      _vm._m(12),
     ]),
     _vm._v(" "),
-    _vm._m(14),
+    _vm._m(13),
   ])
 }
 var staticRenderFns = [
@@ -403,14 +412,6 @@ var staticRenderFns = [
       _c("a", { attrs: { href: "#", "aria-current": "page" } }, [
         _vm._v("Главная"),
       ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", {}, [
-      _c("a", { attrs: { href: "#" } }, [_vm._v("Новости")]),
     ])
   },
   function () {

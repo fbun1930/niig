@@ -24,6 +24,8 @@ Vue.use( Moment );
 
 library.add(faCopy, faFilePdf)
 Vue.component('font-awesome-icon', FontAwesomeIcon);
+window.$ = require('jquery')
+window.JQuery = require('jquery')
 
 const app = new Vue({
     el:'#app',

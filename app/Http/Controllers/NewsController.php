@@ -16,7 +16,9 @@ class NewsController extends Controller
      */
     public function index()
     {
-        $news = News::with('category_news')->get();
+        //$news = News::with('category_news')->get();
+        $news = News::all();
+        return response()->json($news);
     }
 
     /**
@@ -35,9 +37,19 @@ class NewsController extends Controller
      * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function store(Request $request){
+        //return $request->title;
+        $new_item = News::create([
+            'title' => $request->title,
+            'action' => $request->action,
+            'text' => $request->text,
+            'status' => 1,
+            'sort' => 1,
+            'category_news_id' => 1,
+        ]);
+        $dictionary = News::where('id', $new_item->id)->get();
+        return response()->json($dictionary);
+
     }
 
     /**
@@ -82,7 +94,13 @@ class NewsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $news = News::find($id);
+        if ($news) {
+            $news->delete();
+            return response()->json('item was deleted');
+        }else {
+            return response()->json('item not found');
+        }
     }
 
     public function CategoriesNews()

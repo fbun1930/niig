@@ -13,4 +13,14 @@ class News extends Model
     {
         return $this->belongsTo(CategoryNews::class);
     }
+
+    protected $fillable = [
+        'title',
+        'category_news_id',
+        'title',
+        'action',
+        'text',
+        'status',
+        'sort',
+    ];
 }

@@ -13,7 +13,10 @@ import Addnews from "./components/Addnews";
 import Direction from "./components/Direction";
 import Headsofdepartments from "./components/Headsofdepartments";
 import History from "./components/History";
+
 import Contacts from "./components/Contacts";
+
+import NewsIndex from "./components/news/Index"
 
 const router = new VueRouter({
     mode:'history',
@@ -105,9 +108,17 @@ const router = new VueRouter({
             },
         },
         {
-            path:"/contacts",
+            path: "/contacts",
             component: Contacts,
             name: 'contacts',
+            meta: {
+                layout: 'Default'
+            },
+        },
+        {
+            path:"/news",
+            component: NewsIndex,
+            name: 'news_index',
             meta: {
                 layout: 'Default'
             },
