@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\News;
 use App\Models\CategoryNews;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 
 class NewsController extends Controller
@@ -17,7 +18,24 @@ class NewsController extends Controller
     public function index()
     {
         //$news = News::with('category_news')->get();
-        $news = News::all();
+        //$news = News::all();
+
+        $news = DB::table('news')
+            ->select([
+                'news.id as id',
+                'news.title as title',
+                'news.action as action',
+                'news.created_at as created_at',
+                'news.sort as sort',
+                'news.status as status',
+                'news.text as text',
+                'news.updated_at as updated_at',
+                'category_news.name as category_news_id',
+            ])
+            ->join('category_news', 'category_news.id', '=', 'news.category_id')
+            ->get();
+
+
         return response()->json($news);
     }
 

@@ -49,6 +49,8 @@
             async getNewsList(){
                 const news = await axios.get('api/news/index');
                 this.news = news.data;
+                console.log(1111)
+                console.log(news)
             },
             async removeNew(id){
                 await axios.delete('api/news/delete-new/'+id);
